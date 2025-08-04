@@ -8,7 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN echo "La aplicacion esta ACTIVA ahora, puedes ingresar con exec y comprobarlo"
 
-EXPOSE 8000
+EXPOSE 10000
 
 #CMD ["python", "for-archivo.py"]
-CMD ["tail","-f","/dev/null"]
+#CMD ["tail","-f","/dev/null"]
+CMD ["gunicorn", "--bind", "0.0.0.0:10000", "for-archivo:app"]
