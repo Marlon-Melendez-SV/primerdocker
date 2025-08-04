@@ -1,0 +1,9 @@
+ARCHIVO CREADO CON PYTHONprimera linea de texto
+
+Segunda linea de texto con ENTER
+		
+Tercera linea de texto con tab y Enter
+,
+quinta linea
+..
+septima linea
