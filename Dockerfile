@@ -8,5 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN echo "La aplicacion esta ACTIVA ahora, puedes ingresar con exec y comprobarlo"
 
+EXPOSE 8000
+
 #CMD ["python", "for-archivo.py"]
 CMD ["tail","-f","/dev/null"]
