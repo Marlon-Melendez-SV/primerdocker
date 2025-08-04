@@ -9,5 +9,6 @@ lineas=f.readlines()
 for k in lineas:
   print (k)
 
-
+nombre=input("cual es tu nombre ")
+print ("Entendiste el funcionamiento del programa ",nombre)
  
